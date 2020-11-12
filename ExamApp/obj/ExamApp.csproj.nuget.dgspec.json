@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\jdignadice24\\Desktop\\Hybrain\\ExamApp\\ExamApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\jdignadice24\\Desktop\\Hybrain\\ExamApp\\ExamApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jdignadice24\\Desktop\\Hybrain\\ExamApp\\ExamApp.csproj",
+        "projectName": "ExamApp",
+        "projectPath": "C:\\Users\\jdignadice24\\Desktop\\Hybrain\\ExamApp\\ExamApp.csproj",
+        "packagesPath": "C:\\Users\\jdignadice24\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jdignadice24\\Desktop\\Hybrain\\ExamApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jdignadice24\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "EntityFramework6.Npgsql": {
+              "target": "Package",
+              "version": "[6.4.1, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[4.1.5, )"
+            },
+            "Stub.System.Data.SQLite.Core.NetStandard": {
+              "target": "Package",
+              "version": "[1.0.113.1, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.113.6, )"
+            },
+            "System.Data.SQLite.Core": {
+              "target": "Package",
+              "version": "[1.0.113.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
